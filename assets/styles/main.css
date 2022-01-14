@@ -165,7 +165,7 @@ a{
      position: absolute;
      left: 0;
      right: 0;
-     bottom: 120px;
+     bottom: 150px;
     }
     #home .project-preview a{
         width: 120px;
@@ -176,6 +176,7 @@ a{
         padding: 8px;
         font-size:0.5em;
         border-radius: 0;
+        font-weight: bold;
         text-transform: capitalize;
         
     }
