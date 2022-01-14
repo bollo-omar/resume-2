@@ -9,6 +9,7 @@
     }
     .home-content h5{
         font-size: 0.9em;
+        padding-top: 50px;
     }
     .home-content .profession{
         font-size:1.75em;
@@ -47,7 +48,8 @@
         max-width:70%;
        
     }
-    .mini-carousel{
+    .mini-title{
+        margin-top: 20px;
         font-size: 1.1em;
         color: lemonchiffon;
     }
