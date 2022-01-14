@@ -1,5 +1,5 @@
 
-@media  screen and (max-width:329px){
+@media  screen and (max-width:800px){
     #home{
         height: calc(100vh - 80px);
         overflow-x: hidden;
@@ -45,7 +45,7 @@
     .mini-carousel img{
         width: 280px;
         max-width:70%;
-        height: 100%;
+       
     }
     .mini-carousel{
         font-size: 1.1em;
