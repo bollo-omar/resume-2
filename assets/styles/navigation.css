@@ -88,8 +88,13 @@ div.menu-list ul{
         background-color: dodgerblue;
         position: relative;
         color: #fff;
-        margin-top: 10px;
+        margin: 5px;
+        text-align: center;
+        display: inline-flex;
+        justify-content: space-between;
         padding: 5px;
+        padding-top: 8px;
+        font-size: 1.2em;
         border-radius:5px;
         cursor: pointer;
     }   
