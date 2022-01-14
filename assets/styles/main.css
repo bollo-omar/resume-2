@@ -114,13 +114,12 @@ a{
     letter-spacing: 3;
     -moz-box-shadow: 0 0 10px #fff;
     -webkit-box-shadow: 0 0 10px #fff;
-    box-shadow: 0 0 10px #fff;
-  
+    box-shadow: 0 0 10px #fff;  
 }
 
 @media screen and (max-width: 800px){
    #home{
-       height: 100vh;
+       height: calc(100vh - 80px);
        overflow-x: hidden;
    }
     #home .selling{
@@ -165,7 +164,7 @@ a{
      position: absolute;
      left: 0;
      right: 0;
-     bottom: 150px;
+     bottom: 5w0px;
     }
     #home .project-preview a{
         width: 120px;
