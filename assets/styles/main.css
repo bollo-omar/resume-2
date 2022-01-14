@@ -118,13 +118,10 @@ a{
 }
 
 @media screen and (max-width: 800px){
-   #home{
-       height: calc(100vh - 80px);
-       overflow-x: hidden;
-   }
-    #home .selling{
+  
+    /*#home .selling{
         padding: 20px;
-        padding-top: 70px;
+        padding-top: 50px;
         width: 90%;
         max-width :90%;
         margin: 0; 
@@ -185,5 +182,5 @@ a{
         -webkit-box-shadow: 0 0 10px #fff;
         box-shadow: 0 0 10px #fff;
       
-    }
+    }*/
 }
