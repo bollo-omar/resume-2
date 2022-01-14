@@ -1,9 +1,9 @@
 nav.menu{
-    width: 100vw;
+    width: 100%;
     display:inline-flex;
     justify-content: space-between;
     -moz-box-shadow: 0 0 10px #000000;
-   -webkit-box-shadow: 0 0 10px #000000;
+    -webkit-box-shadow: 0 0 10px #000000;
     box-shadow: 0 0 10px #000000;
     position: relative;
     height: 50px;
@@ -16,20 +16,20 @@ div.menu-list ul{
     list-style: none;
     display: inline-flex;
     margin-right: 135px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .menu-list ul li{
     padding-left:30px;
     margin-left: 0px;
 }
 .menu-logo{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: 10px;
 }
 
 .menu-logo .logo{
     text-align:center;
-    margin-top:10px;
+    margin-top:15px;
     margin-left: 10px;
 }
 
@@ -48,7 +48,7 @@ div.menu-list ul{
         position: relative;
         top: 0px;
         left: 0;
-        width: 100vw;
+        width: 100%;
         z-index: 3;      
     }    
     .menu-list{
@@ -126,8 +126,8 @@ div.menu-list ul{
     
     .menu-secondary{
         display: block;
-        position: absolute;
-        bottom: 0px;
+        position: fixed;
+        bottom: 0;
         left: 0;
         right: 0;
         background: dodgerblue;     
