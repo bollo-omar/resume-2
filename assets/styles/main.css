@@ -161,10 +161,10 @@ a{
      width: 100%;
      max-width:100%;
      justify-content: center;
-     position: absolute;
+     position: relative;
      left: 0;
      right: 0;
-     bottom: 70px;
+     bottom: 10px;
     }
     #home .project-preview a{
         width: 120px;
