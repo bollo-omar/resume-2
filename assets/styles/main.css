@@ -95,7 +95,7 @@ a{
  display: inline-flex;
  width: 100%;
  justify-content: center;
- position: absolute;
+ overflow-x: hidden;
  bottom: 50px;
 }
 #home .project-preview a{

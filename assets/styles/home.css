@@ -1,4 +1,47 @@
+@media  screen and (min-width:801px){
+    
+    #home{
+        height: 100vh;
+        
+    }
+    .home-content{
+        padding: 20px;
+        margin: auto;
+        width: 80vw;
+        max-width: 80%;
+        padding-top: 150px;
+    }
+    .home-content h5{
+        font-size: 1.2em;
+    padding-top: 50px;
+    text-align: center;
+}
+.home-content .profession{
+    font-size:2.0em;
+    width: 100%;
+    text-align: center;
+}
+.home-content aside{
+    font-size: 0.6em;
+    letter-spacing: 2;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color:azure;
+    justify-content: center;
+    
+}
+.home-content aside div{
+    margin: 20px;
+}
+.my-works{display:none;}
 
+
+.mini-carousel{
+    display: none;
+}
+
+}
 @media  screen and (max-width:800px){
     #home{
         height: calc(100vh - 80px);
@@ -53,4 +96,5 @@
         font-size: 1.1em;
         color: lemonchiffon;
     }
+    #home .project-preview{display: none;}
 }
