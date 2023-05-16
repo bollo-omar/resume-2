@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  position: relative;
+  z-index: 1;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+a {
+  color: inherit;
+  text-transform: none;
+  text-decoration: none;
+  cursor: pointer;
+}
